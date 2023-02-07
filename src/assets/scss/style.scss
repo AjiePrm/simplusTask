@@ -8,6 +8,7 @@
 // scss-docs-start import-stack
 // Configuration
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap');
+@import "colorVariables";
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -51,19 +52,44 @@
 // Utilities
 @import "utilities/api";
 // scss-docs-end import-stack
+*{
+    font-family: "Lato", sans-serif;
+}
 
+.btn{
+    border:none !important;
+}
 .btn:focus{
     box-shadow: none;
     border:none !important;
 }
 
-.dropdawn{
-    position: relative;
+.btn-menu{
+    position: fixed;
+    bottom: 90px;
+    right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
 }
 
-.drop-wrapper{
-    padding: 4px;
-    box-shadow: none;
-    background-color: $white;
-    position: absolute;
+.item{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-item{
+    display: flex;
+    flex-direction: row;
+}
+
+.text-title{
+    font-family: "Lato", sans-serif;
+  color: $primary;
+  &:hover {
+    color: $primary;
+    text-decoration: none;
+  }
 }

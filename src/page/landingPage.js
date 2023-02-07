@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import Footer from "../parts/Combined/Footer";
 
 export default class landingPage extends Component {
   render() {
     return (
       <React.Fragment>
-        <h1 className="row align-items-center justify-content-center">index</h1>
+        <Footer />
       </React.Fragment>
     );
   }

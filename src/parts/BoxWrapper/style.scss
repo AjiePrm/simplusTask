@@ -1,0 +1,68 @@
+@import '../../assets/scss/colorVariables';
+
+.wrapper-box {
+    width: 734px;
+    height: 732px;
+    text-align: center;
+    box-shadow: 0 0px 20px rgba(0 , 0 , 0 , 0.1);
+  }
+
+.form-control:focus, .form-control:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+.input-group:focus{
+    outline: 0 !important;
+    box-shadow: none;
+}
+
+.input-group-text{
+    border-left: none;
+    padding-right: 40px;
+    background-color: transparent;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+  }
+
+  .group-list{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .grp-btn{
+    display: flex;
+    flex-direction: column;
+
+  }
+   .grp-btn-item{
+    display: flex;
+    flex-direction: row;
+    outline: none !important;
+    border-radius: 0;
+    box-shadow: none;
+   }
+
+   .marginBorder{
+    padding-top: 22px;
+   }
+  
+   .inbox-range-wrapper {
+    padding: 4px;
+    background-color: $white;
+    position: absolute;
+    border-radius: 4px;
+    bottom: 55px;
+    right: -35px;
+    z-index: 5;
+  }

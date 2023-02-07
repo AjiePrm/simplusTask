@@ -1,0 +1,139 @@
+{
+
+  "groupChats": [
+      {
+        "id": 1,
+        "name": "Group Chat 1",
+        "members": [
+          {
+            "id": 1,
+            "name": "User 1"
+          },
+          {
+            "id": 2,
+            "name": "User 2"
+          },
+          {
+            "id": 3,
+            "name": "User 3"
+          }
+        ],
+        "messages": [
+          {
+            "id": 1,
+            "senderId": 1,
+            "timestamp": "2022-01-01T12:00:00.000Z",
+            "text": "Hey everyone, how's it going?",
+            "unread":"false",
+            "newMessage":"false"
+          },
+          {
+            "id": 2,
+            "senderId": 2,
+            "timestamp": "2022-01-01T12:01:00.000Z",
+            "text": "Good, how about you?",
+            "unread":"false",
+            "newMessage":"false"
+          },
+          {
+            "id": 3,
+            "senderId": 3,
+            "timestamp": "2022-01-01T12:02:00.000Z",
+            "text": "I'm good too, thanks for asking.",
+            "unread":"true",
+            "newMessage":"true"
+
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Group Chat 2",
+        "members": [
+          {
+            "id": 4,
+            "name": "User 4"
+          },
+          {
+            "id": 5,
+            "name": "User 5"
+          },
+          {
+            "id": 6,
+            "name": "User 6"
+          }
+        ],
+        "messages": [
+          {
+            "id": 4,
+            "senderId": 4,
+            "timestamp": "2022-01-01T12:04:00.000Z",
+            "text": "Hello everyone, what's up?",
+            "unread":"false",
+            "newMessage":"false"
+          },
+          {
+            "id": 5,
+            "senderId": 5,
+            "timestamp": "2022-01-01T12:05:00.000Z",
+            "text": "Not much, what about you?",
+            "unread":"false",
+            "newMessage":"false"
+          },
+          {
+            "id": 6,
+            "senderId": 6,
+            "timestamp": "2022-01-01T12:06:00.000Z",
+            "text": "I'm just hanging out, thanks.",
+            "unread":"false",
+            "newMessage":"false"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Group Chat 3",
+        "members": [
+          {
+            "id": 7,
+            "name": "User 7"
+          },
+          {
+            "id": 8,
+            "name": "User 8"
+          },
+          {
+            "id": 9,
+            "name": "User 9"
+          }
+        ],
+        "messages": [
+          {
+            "id": 7,
+            "senderId": 7,
+            "timestamp": "2022-01-01T12:07:00.000Z",
+            "text": "Hey guys, what's going on?",
+            "unread":"false",
+            "newMessage":"false"
+            
+          },
+          {
+            "id": 8,
+            "senderId": 8,
+            "timestamp": "2022-01-01T12:08:00.000Z",
+            "text": "Not much, just chilling.",
+            "unread":"false",
+            "newMessage":"false"
+          },
+          {
+            "id": 9,
+            "senderId": 9,
+            "timestamp": "2022-01-01T12:09:00.000Z",
+            "text": "Same here, just taking it easy.",
+            "unread":"false",
+            "newMessage":"false"
+          }
+        ]
+      }
+    ]
+  }

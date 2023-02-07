@@ -1,0 +1,25 @@
+
+
+.row-item{
+    padding: 4px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 4px;
+    top: -43px;
+    right: 65px;
+    z-index: 0;
+}
+
+.row-item-active{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 4px;
+    top: -35px;
+    right: -50px;
+    z-index: 0;
+}
+
+

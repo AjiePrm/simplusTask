@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import MenuList from "../parts/DropdownItem/ListDropDown";
+import MenuList from "../parts/BoxWrapper/boxingWrapper";
+import "../assets/scss/style.scss";
 
 export default class example extends Component {
   render() {
@@ -10,7 +11,9 @@ export default class example extends Component {
           style={{ height: "100vh" }}
         >
           <div className="col-auto">
-            <MenuList />
+            <>
+              <MenuList />
+            </>
           </div>
         </div>
       </div>
