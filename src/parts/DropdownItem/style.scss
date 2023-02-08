@@ -22,4 +22,16 @@
     z-index: 0;
 }
 
+.row-item-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 4px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 4px;
+    top: -35px;
+    right: -50px;
+    z-index: 0;
+}
+
 
